@@ -1,0 +1,9 @@
+.garmintokens/
+.venv/
+__pycache__/
+*.pyc
+uv.lock
+.env
+.pytest_cache/
+*.bundle
+*.egg-info/

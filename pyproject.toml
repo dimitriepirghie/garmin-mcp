@@ -1,0 +1,11 @@
+[project]
+name = "garmin-mcp"
+version = "0.1.0"
+description = "Read-only MCP server for Garmin Connect: local stdio or remote Streamable HTTP with bearer auth"
+requires-python = ">=3.12"
+dependencies = [
+    "mcp>=1.2.0",
+    "garminconnect>=0.3.20",
+    "uvicorn>=0.31.1",
+    "anyio>=4.5",
+]
